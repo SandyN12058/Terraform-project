@@ -1,0 +1,13 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform crash logs
+crash.log
+
+# .terraform directory (contains provider binaries, configs, etc.)
+.terraform/
+
+# Terraform lock file (optional if you want deterministic builds, but ignore for personal projects)
+.terraform.lock.hcl
+
