@@ -3,8 +3,8 @@
 This project provisions a highly available and scalable infrastructure on AWS using Terraform. It includes:
 - An **Application Load Balancer (ALB)** for routing HTTP traffic
 - Two **Auto Scaling Groups (ASGs)** for different applications
-- Two **Target Groups** with path-based routing
-- **Launch Templates** for EC2 instance configuration
+- Two **Target Groups (TGs)** with path-based routing
+- **Launch Templates (LTs)** for EC2 instance configuration
 
 ---
 
@@ -33,8 +33,8 @@ This project provisions a highly available and scalable infrastructure on AWS us
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/terraform-aws-scalable-app.git
-cd terraform-aws-scalable-app
+git clone https://github.com/SandyN12058/Terraform-project.git
+cd terraform-project
 ```
 #### 2. Initialize Terraform
 ```bash
