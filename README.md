@@ -13,6 +13,7 @@ This project provisions a highly available and scalable infrastructure on AWS us
 . ├── **main.tf** (Main Terraform configuration) <br>
 . ├── **variables.tf** (Input variables) <br> 
 . ├── **outputs.tf** (Outputs) <br>
+. ├── **provider.tf** <br>
 . ├── **README.md** <br>
 
 
