@@ -1,7 +1,7 @@
 # 🚀 AWS Scalable Web App Deployment using Terraform
 
 <p align="center">
-  <img src="./diagrams/architecture.png" alt="Project Architecture" width="800"/>
+  <img src="./diagrams/architecture.png" alt="Project Architecture" width="600"/>
 </p>
 
 This project provisions a highly available and scalable infrastructure on AWS using Terraform. It includes:
