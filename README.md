@@ -4,6 +4,7 @@
   <img src="./diagrams/architecture.png" alt="Project Architecture" width="600"/>
 </p>
 
+Originally configured via AWS Console for learning, later refactored into Terraform for version control and better visibility.
 This project provisions a highly available and scalable infrastructure on AWS using Terraform. It includes:
 - An **Application Load Balancer (ALB)** for routing HTTP traffic
 - Two **Auto Scaling Groups (ASGs)** for different applications
