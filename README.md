@@ -9,13 +9,14 @@ This project provisions a highly available and scalable infrastructure on AWS us
 ---
 
 ## 📁 Project Structure
-
-. ├── **main.tf** (Main Terraform configuration) <br>
-. ├── **variables.tf** (Input variables) <br> 
-. ├── **outputs.tf** (Outputs) <br>
-. ├── **provider.tf** <br>
+. ├── **infra** <br>
+. |     ├── **main.tf** <br>
+. |     ├── **variables.tf** <br> 
+. |     ├── **outputs.tf** <br>
+. |     ├── **provider.tf** <br>
+. |
+. ├── **user-scripts** <br>
 . ├── **README.md** <br>
-
 
 ---
 
