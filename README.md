@@ -1,6 +1,8 @@
 # 🚀 AWS Scalable Web App Deployment using Terraform
 
-![Project Workflow](./diagrams/architecture.png)
+<p align="center">
+  <img src="./diagrams/architecture.png" alt="Project Architecture" width="800"/>
+</p>
 
 This project provisions a highly available and scalable infrastructure on AWS using Terraform. It includes:
 - An **Application Load Balancer (ALB)** for routing HTTP traffic
