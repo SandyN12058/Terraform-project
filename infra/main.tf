@@ -312,7 +312,7 @@ resource "aws_launch_template" "lt_1" {
   instance_type          = var.instance_type
   key_name               = aws_key_pair.key_pair.key_name
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
-  user_data              = base64encode(file("./user-scripts/app1.sh"))
+  user_data              = base64encode(file("../user-scripts/app1.sh"))
 
   tag_specifications {
     resource_type = "instance"
@@ -329,7 +329,7 @@ resource "aws_launch_template" "lt_2" {
   instance_type          = var.instance_type
   key_name               = aws_key_pair.key_pair.key_name
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
-  user_data              = base64encode(file("./user-scripts/app2.sh"))
+  user_data              = base64encode(file("../user-scripts/app2.sh"))
 
   tag_specifications {
     resource_type = "instance"
