@@ -8,18 +8,6 @@ This project provisions a highly available and scalable infrastructure on AWS us
 
 ---
 
-## 📁 Project Structure
-. ├── **infra** <br>
-. |     ├── **main.tf** <br>
-. |     ├── **variables.tf** <br> 
-. |     ├── **outputs.tf** <br>
-. |     ├── **provider.tf** <br>
-. |
-. ├── **user-scripts** <br>
-. ├── **README.md** <br>
-
----
-
 ## 🧰 Prerequisites
 
 - ✅ [Terraform](https://www.terraform.io/downloads)
